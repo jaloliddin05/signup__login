@@ -1,0 +1,32 @@
+.home_container {
+  justify-content: center;
+}
+.posts_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  background-color: #fff;
+}
+.post_item {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 7px 5px rgb(24, 201, 251);
+  margin: 20px 10px;
+  background-color: #fff;
+}
+.post_item_title,
+.post_item_author {
+  padding: 15px 0;
+  text-align: center;
+  color: red;
+  background-color: #fff;
+}
+.post_item_post {
+  color: red;
+  border-radius: 100% 0% 100% 0% / 50% 50% 50% 50%;
+  border: 6px solid rgb(0, 195, 255);
+  background-color: #fff;
+  padding: 35px 30px;
+}

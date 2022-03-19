@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userEmail": "some comment",
+      "userEmailPassword": 1,
+      "username": "",
+      "userPassword": ""
+    },
+    {
+      "id": 1646831413252,
+      "userEmail": "ddd@dd",
+      "userEmailPassword": "ddd",
+      "username": "ddd",
+      "userPassword": "ddd"
+    },
+    {
+      "id": 1646832013731,
+      "userEmail": "fff@ff",
+      "userEmailPassword": "fff",
+      "username": "fff",
+      "userPassword": "fff"
+    },
+    {
+      "id": 1646832013732,
+      "userEmail": "mail@gmail.com",
+      "userEmailPassword": "12345",
+      "username": "Jaloliddin",
+      "userPassword": "12345"
+    }
+  ],
+  "posts": [
+    {
+      "id": 2,
+      "authorName": "Deku",
+      "title": "Hero",
+      "post": "Hero academy"
+    },
+    {
+      "id": 3,
+      "authorName": "dars",
+      "title": "dars",
+      "post": "dars"
+    },
+    {
+      "id": 4,
+      "authorName": "Lorem Ipsum",
+      "title": "Lorem",
+      "post": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, tenetur sit praesentium ullam labore amet architecto voluptatem rerum incidunt aspernatur corrupti nobis repellendus perferendis in eum pariatur fuga perspiciatis. Iure obcaecati ad neque doloremque mollitia modi laudantium ab eaque sequi?"
+    }
+  ]
+}

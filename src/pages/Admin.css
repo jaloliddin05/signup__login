@@ -1,0 +1,97 @@
+.admin_container {
+  width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  flex-direction: column;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.admin_lock {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 11;
+}
+.admin_lock_label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.admin_lock_span {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  color: white;
+  font-size: 25px;
+  transition: 0.3s;
+}
+.admin_lock_password:focus + .admin_lock_span {
+  top: -45px;
+  left: 0;
+}
+.admin_lock_password {
+  width: 390px;
+  padding: 20px 40px;
+  font-size: 25px;
+  background-color: transparent;
+  box-shadow: 0 0 10px 5px white;
+  color: white;
+}
+.admin_form {
+  position: relative;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(85, 81, 81, 0.404);
+  box-shadow: 0 0 5px 2px rgba(26, 25, 25, 0.842);
+}
+.title_label,
+.author_label {
+  width: 50%;
+  font-size: 18px;
+}
+
+.posts_label {
+  width: 80%;
+  font-size: 18px;
+}
+.posts_text,
+.title_input,
+.title_input {
+  width: 100%;
+  background-color: #000;
+  color: rgba(10, 248, 10);
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+.admin_heading {
+  font-size: 50px;
+}
+.none {
+  display: none;
+}
+.admin_btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px 15px;
+  border-end-end-radius: 15px;
+  border-top-left-radius: 15px;
+  color: white;
+  background-color: rgba(10, 248, 10);
+}
